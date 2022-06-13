@@ -105,15 +105,15 @@
 
 
 
-// let num = 15;
+// let Num = 15;
 // if(num > 0){
-//     console.log(num, `is a positive number`);
+//     console.log(Num, `is a positive number`);
 // }
 // else if(num < 0){
-//     console.log(num, `is a negative number`);
+//     console.log(Num, `is a negative number`);
 // }
 // else{
-//     console.log(num, `is zero`);
+//     console.log(Num, `is zero`);}
 
   
 
@@ -356,13 +356,13 @@
 
   // Answer no 10 below:-
 
-  // let physics = 65;
-  // let chemistry = 51;
-  // let maths = 72;
-  // let total = 188;
+  // let Physics = 65;
+  // let Chemistry = 51;
+  // let Maths = 72;
+  // let Total = 188;
   // let totalMathsPhysics = 137;
 
-  // if(physics >= 65 && chemistry >= 55 && maths >= 50 && total >= 190 || totalMathsPhysics >= 140){
+  // if(Physics >= 65 && Chemistry >= 55 && Maths >= 50 && Total >= 190 || totalMathsPhysics >= 140){
   //   console.log(`The candidate is eligible for admission.`);
   // }
   // else{
@@ -462,30 +462,6 @@
 
 
      
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // 13. Write a program to read temperature in centigrade and display a suitable message according to temperature state below :
@@ -611,22 +587,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 16. Write a program to check whether a character is an alphabet, digit or special character.
 // Test Data :
 // @
@@ -643,31 +603,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 17. Write a  program to check whether an alphabet is a vowel or consonant.
 // Test Data :
 // k
 // Expected Output :
-// The alphabet is a consonant.
+// The alphabet 'k' is a consonant.
 /* Your answer here */
 
 
@@ -676,21 +616,13 @@
   // let alphabet = "k";
 
   // if(alphabet == "a" || alphabet == "e" || alphabet == "i" || alphabet == "o" || alphabet == "u"){
-  //   console.log("The alphabet is a vowel.");
+  //   console.log(`The alphabet '${alphabet}' is a vowel.`);
   // }
   // else{
-  //   console.log("The alphabet is a consonant.");
+  //   console.log(`The alphabet '${alphabet}' is a consonant.`);
   // }
 
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -699,28 +631,30 @@
 // Input buy price: 500
 // Input sell price: 700
 // Expected Output :
-// You can booked your profit amount : 200
-/* Your answer here
+// You have made a profit of : 200
+/* Your answer here */
+
+
+  // Answer no 18 below:-
+
+  // let buyPrice = 500;
+  // let sellPrice = 700;
+  // let profit = sellPrice - buyPrice;
+  // let loss = buyPrice - sellPrice;
+
+  // if(profit > 0){
+  //   console.log(`You have made a profit of : ${profit}`);
+  // }
+  // else if(loss > 0){
+  //   console.log(`You have incurred a loss of : ${loss}`);
+  // }
+  // else{
+  //   console.log("No profit or loss.");
+  // }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 // 19. Write a program  to calculate and print the Electricity bill of a given customer. The customer id., name and unit consumed by the user should be taken from the keyboard and display the total amount to pay to the customer. The charge are as follow :
 
@@ -742,7 +676,46 @@
 // Amount Charges @Rs. 2.00 per unit : 1600.00
 // Surchage Amount : 240.00
 // Net Amount Paid By the Customer : 1840.00
-/* Your answer here
+/* Your answer here */
+
+
+  // Answer no 19 below:-
+
+  // let customerId = 1001;
+  // let customerName = "James";
+  // let unitConsumed = 800;
+  // let amountCharges = 0;
+  // let surcharge = 0;
+  // let netAmount = 0;
+
+  // if(unitConsumed <= 199){
+  //   amountCharges = unitConsumed * 1.2;
+  // }
+  // else if(unitConsumed >= 200 && unitConsumed < 400){
+  //   amountCharges = unitConsumed * 1.5;
+  // }
+  // else if(unitConsumed >= 400 && unitConsumed < 600){
+  //   amountCharges = unitConsumed * 1.8;
+  // }
+  // else if(unitConsumed >= 600){
+  //   amountCharges = unitConsumed * 2;
+  // }
+
+  // if(amountCharges > 400){
+  //   surcharge = amountCharges * 0.15;
+  // }
+  // else{
+  //   surcharge = 0;
+  // }
+
+  // netAmount = amountCharges + surcharge;
+
+  // console.log(`Customer ID-NO :${customerId}`);
+  // console.log(`Customer Name :${customerName}`);
+  // console.log(`unit Consumed :${unitConsumed}`);
+  // console.log(`Amount Charges @Rs. 2.00 per unit :${amountCharges}`);
+  // console.log(`Surchage Amount :${surcharge}`);
+  // console.log(`Net Amount Paid By the Customer :${netAmount}`);
 
 
 
@@ -761,8 +734,6 @@
 
 
 
-
-*/
 
 // 20. Write a program to accept a grade and declare the equivalent description :
 
@@ -776,7 +747,31 @@
 // Input the grade :A
 // Expected Output :
 // You have chosen : Average
-/* Your answer here
+/* Your answer here*/
+
+
+  // Answer no 20 below:-
+
+  // let grade = "E";
+
+  // if(grade == "E"){
+  //   console.log("You have chosen : Excellent");
+  // }
+  // else if(grade == "V"){
+  //   console.log("You have chosen : Very Good");
+  // }
+  // else if(grade == "G"){
+  //   console.log("You have chosen : Good");
+  // }
+  // else if(grade == "A"){
+  //   console.log("You have chosen : Average");
+  // }
+  // else if(grade == "F"){
+  //   console.log("You have chosen : Fail");
+  // }
+  // else{
+  //   console.log("Invalid Grade");
+  // }
 
 
 
@@ -791,45 +786,95 @@
 
 
 
+ 
 
-
-
-
-
-*/
 // 21. Write a program to read any day number in integer and display day name in the word.
 // Test Data :
 // 4
 // Expected Output :
 // Thursday
-/* Your answer here
+/* Your answer here */
+
+
+  // Answer no 21 below:-
+
+  // let day = 4;
+
+  // if(day == 1){
+  //   console.log("Monday");
+  // }
+  // else if(day == 2){
+  //   console.log("Tuesday");
+  // }
+  // else if(day == 3){
+  //   console.log("Wednesday");
+  // }
+  // else if(day == 4){
+  //   console.log("Thursday");
+  // }
+  // else if(day == 5){
+  //   console.log("Friday");
+  // }
+  // else if(day == 6){
+  //   console.log("Saturday");
+  // }
+  // else if(day == 7){
+  //   console.log("Sunday");
+  // }
+  // else{
+  //   console.log("Invalid Day");
+  // }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 // 22. Write a program to read any digit, display in the word.
 // Test Data :
 // 4
 // Expected Output :
 // Four
-/* Your answer here
+/* Your answer here */
+
+
+  // Answer no 22 below:-
+
+  // let digit = 4;
+
+  // if(digit == 0){
+  //   console.log("Zero");
+  // }
+  // else if(digit == 1){
+  //   console.log("One");
+  // }
+  // else if(digit == 2){
+  //   console.log("Two");
+  // }
+  // else if(digit == 3){
+  //   console.log("Three");
+  // }
+  // else if(digit == 4){
+  //   console.log("Four");
+  // }
+  // else if(digit == 5){
+  //   console.log("Five");
+  // }
+  // else if(digit == 6){
+  //   console.log("Six");
+  // }
+  // else if(digit == 7){
+  //   console.log("Seven");
+  // }
+  // else if(digit == 8){
+  //   console.log("Eight");
+  // }
+  // else if(digit == 9){
+  //   console.log("Nine");
+  // }
+  // else{ 
+  //   console.log("Invalid Digit");
+  // }
 
 
 
@@ -841,21 +886,58 @@
 
 
 
-
-
-
-
-
-
-
-
-*/
 // 23. Write a program to read any Month Number in integer and display Month name in the word.
 // Test Data :
 // 4
 // Expected Output :
 // April
-/* Your answer here
+/* Your answer here */
+
+
+  // Answer no 23 below:-
+
+  // let month = 4;
+
+  // switch(month){
+  //   case 1:
+  //     console.log("January");
+  //     break;
+  //   case 2:
+  //     console.log("February");
+  //     break;
+  //   case 3:
+  //     console.log("March");
+  //     break;
+  //   case 4:
+  //     console.log("April");
+  //     break;
+  //   case 5:
+  //     console.log("May");
+  //     break;
+  //   case 6:
+  //     console.log("June");
+  //     break;
+  //   case 7:
+  //     console.log("July");
+  //     break;
+  //   case 8:
+  //     console.log("August");
+  //     break;
+  //   case 9:
+  //     console.log("September");
+  //     break;
+  //   case 10:
+  //     console.log("October");
+  //     break;
+  //   case 11:
+  //     console.log("November");
+  //     break;
+  //   case 12:
+  //     console.log("December");
+  //     break;
+  //   default:
+  //     console.log("Invalid Month");
+  // }
 
 
 
@@ -864,20 +946,55 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-*/
 // 24. Write a program to read any Month Number in integer and display the number of days for this month.
 // Test Data :
 // 7
 // Expected Output :
 // Month have 31 days
+
+
+  // Answer no 24 below:-
+
+  // let month = 7;
+
+  // switch(month){
+  //   case 1:
+  //     console.log("Month have 31 days");
+  //     break;
+  //   case 2:
+  //     console.log("Month have 28 days");
+  //     break;
+  //   case 3:
+  //     console.log("Month have 31 days");
+  //     break;
+  //   case 4:
+  //     console.log("Month have 30 days");
+  //     break;
+  //   case 5:
+  //     console.log("Month have 31 days");
+  //     break;
+  //   case 6:
+  //     console.log("Month have 30 days");
+  //     break;
+  //   case 7:
+  //     console.log("Month have 31 days");
+  //     break;
+  //   case 8:
+  //     console.log("Month have 31 days");
+  //     break;
+  //   case 9:
+  //     console.log("Month have 30 days");
+  //     break;
+  //   case 10:
+  //     console.log("Month have 31 days");
+  //     break;
+  //   case 11:
+  //     console.log("Month have 30 days");
+  //     break;
+  //   case 12:
+  //     console.log("Month have 31 days");
+  //     break;
+  //   default:
+  //     console.log("Invalid Month");
+  // }
+
