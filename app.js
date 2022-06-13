@@ -15,29 +15,21 @@
 // if(num1 === num2){
 //     console.log(`Number1 and Number2 are equal`);
 // }
+// else{
+//     console.log(`Number1 and Number2 are not equal`);
+// }
 
 
 
 
 
+// MISC question: - Reverse a given 3 digit number
 
-
-
-
-
-
-
-
-
-
-
-
-
-// let a = 356;
+// let a = 186;
 
 // let first_number = Math.floor(a%10);
 
-// let second_number = 152%100;
+// let second_number = a%100;
 
 // second_number = Math.floor(second_number/10);
 
@@ -46,28 +38,6 @@
 // let reverse = first_number*100 + second_number*10 + third_number;
 
 // console.log(reverse);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -95,6 +65,8 @@
 
 
 
+
+
 // 3. Write a  program to check whether a given number is positive or negative.
 // Test Data : 15
 // Expected Output :
@@ -103,17 +75,18 @@
 
   // Answer no 3 below:-
 
+  // let num = 15;
 
+  // if(num > 0){
+  //   console.log(`${num} is a positive number`);
+  // }
+  // else if(num==0){
+  //   console.log(`${num} is not a positive or a negative number`);
+  // }
+  // else{
+  //   console.log(`${num} is a negative number`);
+  // }
 
-// let Num = 15;
-// if(num > 0){
-//     console.log(Num, `is a positive number`);
-// }
-// else if(num < 0){
-//     console.log(Num, `is a negative number`);
-// }
-// else{
-//     console.log(Num, `is zero`);}
 
   
 
